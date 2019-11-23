@@ -43,11 +43,11 @@ Training data: manually select midi files from the dataset and put in *./midi_so
 
     python train.py
 
-Model will automatically save the best weight during training. Set the global parameter *load_weights=True* in *train.py* to load saved weight.
+Model will automatically save the best weights during training. To load saved weights, set the global parameter *load_weights=True* in *train.py*
 
 ## Generate Music: 
 
-*This repo contains a pre-trained model. Re-training the model is optional.*
+*This repo contains a pre-trained model in ./saved_params and will be used to generate new music. Re-training the model is optional.*
 
 The generated MIDI file will be saved to *./output*
 
