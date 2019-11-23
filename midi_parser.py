@@ -29,7 +29,6 @@ def parseMidi(midi_file):
 					resolution: the resolution value from midi file
 
 	'''
-	print("Parsing MIDI files")
 
 	midi_data = MidiFile(midi_file)
 
@@ -92,6 +91,7 @@ def getData(data_path):
 		output:		pianoroll_lst:	a list of (N = #files) matrices of size (timestep x pitch_dimension)
 
 	'''
+	print("Parsing MIDI files")
 
 	pianoroll_lst = []
 	

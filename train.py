@@ -59,7 +59,7 @@ def buildModel():
 	model.add(LSTM(num_hidden, return_sequences = True))
 	model.add(Dropout(0.2))
 	
-	model.add(TimeDistributed(Dense(pitch_dimension, activation= 'tanh')))
+	model.add(TimeDistributed(Dense(pitch_dimension, activation= 'softmax')))
 	model.add(TimeDistributed(Dense(pitch_dimension, activation= 'softmax')))
 
 	return model
