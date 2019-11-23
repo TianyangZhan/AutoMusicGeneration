@@ -29,6 +29,7 @@ def parseMidi(midi_file):
 					resolution: the resolution value from midi file
 
 	'''
+	print("Parsing MIDI files")
 
 	midi_data = MidiFile(midi_file)
 
@@ -78,12 +79,6 @@ def parseMidi(midi_file):
 					piano_roll[note_idx][note_states[note_idx] : time_slice_idx] = 1
 					note_states[note_idx] = -1
 
-	print ("resolution", resolution)
-	print ("tempo", tempo)
-	print ("ticks_per_time", ticks_per_time)
-	print ("total_ticks", total_ticks)
-	print ("time_slices", time_slices)
-
 	return piano_roll.T, tempo, resolution
 
 
@@ -105,7 +100,7 @@ def getData(data_path):
 		if not ( file.endswith(".midi") or file.endswith(".mid") ):
 			continue
 
-		pr,_,_ = parseMidi(os.path.join(input_dir,file)) # don't need temporal values for training
+		pr,_,_ = parseMidi(os.path.join(data_path,file)) # don't need temporal values for training
 		pianoroll_lst.append(pr)
 
 	return pianoroll_lst
