@@ -39,13 +39,13 @@ The dataset (MAESTRO) used for the experiments is available at: https://magenta.
 
 ## Train the Network: 
 
-Training data: manually select midi files from the dataset and put in *./midi_songs* folder
+Training data: manually select midi files from the dataset and put in *./midi_songs*
 
     python train.py
 
 ## Generate Music: 
 
-output file save to *./output* folder
+output file save to *./output*
 
     python generate.py
 
