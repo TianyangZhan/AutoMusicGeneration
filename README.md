@@ -18,7 +18,7 @@ Music composition is a difficult task for many people since it requires a decent
     pip install numpy
     pip install ipykernel
 
-**Training on GPU**
+**(Optional) Training on GPU**
 
 We use Keras (TensorfFlow backend), which automatically enables training on **GPU** if available*.
 
