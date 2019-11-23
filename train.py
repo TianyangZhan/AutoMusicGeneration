@@ -10,10 +10,10 @@ import ipykernel
 import numpy as np
 
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import *
+from tensorflow.keras.layers import LSTM, Dense, BatchNormalization, Dropout, TimeDistributed, RepeatVector
 from tensorflow.keras.callbacks import EarlyStopping, History
 from tensorflow.keras.models import model_from_json
-from tensorflow.keras.optimizers import Adam, RMSprop
+from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.callbacks import ModelCheckpoint
 
 from midi_parser import getData, createTrainData
