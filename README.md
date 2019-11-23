@@ -1,6 +1,8 @@
 # Music-Generation-with-LSTM
 
 
+# Readme work in progress
+
 ## Requirement:
 
 Python version: python3
