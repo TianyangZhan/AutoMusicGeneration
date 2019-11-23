@@ -1,10 +1,9 @@
 # Music-Generation-with-LSTM
 
 
-Requirement:
-python3
+## Requirement:
 
-Packages:
+Python version: python3
 
     pip install tensorflow-gpu
     pip install keras
@@ -14,11 +13,15 @@ Packages:
     pip install ipykernel
 
 
-Train: training data in ./midi_songs
+## Train: 
+
+training data in ./midi_songs
 
     python train.py
 
-Generate: file save to ./output
+## Generate: 
+
+output file save to ./output
 
     python generate.py
 
