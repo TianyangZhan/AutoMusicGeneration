@@ -45,7 +45,9 @@ Training data: manually select midi files from the dataset and put in *./midi_so
 
 ## Generate Music: 
 
-output file save to *./output*
+output file will be saved to *./output*
+
+This repo contains a pre-trained model. Re-training the model is optional.
 
     python generate.py
 
