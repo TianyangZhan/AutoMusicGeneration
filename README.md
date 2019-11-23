@@ -1,4 +1,4 @@
-# Music Generation with LSTM
+# Music Generation Using Seq2Seq LSTM Network
 
 
 ## Overview
@@ -42,6 +42,8 @@ The dataset (MAESTRO) used for the experiments is available at: https://magenta.
 Training data: manually select midi files from the dataset and put in *./midi_songs*
 
     python train.py
+
+Model will automatically save the best weight during training. Set the global parameter *load_weights=True* in *train.py* to load saved weight.
 
 ## Generate Music: 
 
