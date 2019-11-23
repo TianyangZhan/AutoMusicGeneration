@@ -1,7 +1,5 @@
-# Music-Generation-with-LSTM
+# Music Generation with LSTM
 
-
-# Readme work in progress
 
 ## Overview
 
