@@ -17,6 +17,7 @@ Music composition is a difficult task for many people since it requires a decent
     pip install sklearn
     pip install numpy
     pip install ipykernel
+    pip install matplotlib
 
 **(Optional) Training on GPU**
 
