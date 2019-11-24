@@ -8,6 +8,7 @@ import os
 import time
 import ipykernel
 import numpy as np
+import matplotlib.pyplot as plt
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, BatchNormalization, Dropout, TimeDistributed, RepeatVector
