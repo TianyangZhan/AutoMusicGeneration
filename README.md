@@ -56,6 +56,6 @@ The generated MIDI file will be saved to *./output*
 
 ## Listen to The Music:
 
-On macOS: Recommend using GaragBand to open and play midi files
+On macOS: Recommend using GarageBand to open and play midi files
 
 There are also many online tools for playing midi files
